@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="44731" started-at="2020-11-08T23:58:16 IST" finished-at="2020-11-08T23:59:01 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="44731" started-at="2020-11-08T23:58:16 IST" finished-at="2020-11-08T23:59:01 IST">
+      <class name="DisplayFilter">
+        <test-method status="PASS" signature="testSetupCapabilites()[pri:0, instance:DisplayFilter@646d64ab]" name="testSetupCapabilites" is-config="true" duration-ms="19249" started-at="2020-11-08T23:58:16 IST" finished-at="2020-11-08T23:58:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetupCapabilites -->
+        <test-method status="PASS" signature="verifySort()[pri:0, instance:DisplayFilter@646d64ab]" name="verifySort" duration-ms="24283" started-at="2020-11-08T23:58:35 IST" finished-at="2020-11-08T23:58:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySort -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:DisplayFilter@646d64ab]" name="tearDown" is-config="true" duration-ms="1122" started-at="2020-11-08T23:58:59 IST" finished-at="2020-11-08T23:59:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- DisplayFilter -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
