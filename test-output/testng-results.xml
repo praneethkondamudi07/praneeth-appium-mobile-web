@@ -1,25 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="44731" started-at="2020-11-08T23:58:16 IST" finished-at="2020-11-08T23:59:01 IST">
+  <suite name="DemoWebShop" duration-ms="97452" started-at="2020-11-10T00:45:49 IST" finished-at="2020-11-10T00:47:27 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="44731" started-at="2020-11-08T23:58:16 IST" finished-at="2020-11-08T23:59:01 IST">
-      <class name="DisplayFilter">
-        <test-method status="PASS" signature="testSetupCapabilites()[pri:0, instance:DisplayFilter@646d64ab]" name="testSetupCapabilites" is-config="true" duration-ms="19249" started-at="2020-11-08T23:58:16 IST" finished-at="2020-11-08T23:58:35 IST">
+    <test name="validateDisplayDropdown" duration-ms="97452" started-at="2020-11-10T00:45:49 IST" finished-at="2020-11-10T00:47:27 IST">
+      <class name="display.DisplayDropdown">
+        <test-method status="PASS" signature="BeginClass(java.lang.String)[pri:0, instance:display.DisplayDropdown@305fd85d]" name="BeginClass" is-config="true" duration-ms="27583" started-at="2020-11-10T00:45:49 IST" finished-at="2020-11-10T00:46:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSetupCapabilites -->
-        <test-method status="PASS" signature="verifySort()[pri:0, instance:DisplayFilter@646d64ab]" name="verifySort" duration-ms="24283" started-at="2020-11-08T23:58:35 IST" finished-at="2020-11-08T23:58:59 IST">
+        </test-method> <!-- BeginClass -->
+        <test-method status="PASS" signature="notePrice(java.lang.String)[pri:0, instance:display.DisplayDropdown@305fd85d]" name="notePrice" duration-ms="25832" started-at="2020-11-10T00:46:17 IST" data-provider="results_per_page" finished-at="2020-11-10T00:46:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifySort -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:DisplayFilter@646d64ab]" name="tearDown" is-config="true" duration-ms="1122" started-at="2020-11-08T23:58:59 IST" finished-at="2020-11-08T23:59:01 IST">
+        </test-method> <!-- notePrice -->
+        <test-method status="PASS" signature="notePrice(java.lang.String)[pri:0, instance:display.DisplayDropdown@305fd85d]" name="notePrice" duration-ms="20142" started-at="2020-11-10T00:46:43 IST" data-provider="results_per_page" finished-at="2020-11-10T00:47:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- notePrice -->
+        <test-method status="PASS" signature="notePrice(java.lang.String)[pri:0, instance:display.DisplayDropdown@305fd85d]" name="notePrice" duration-ms="22480" started-at="2020-11-10T00:47:03 IST" data-provider="results_per_page" finished-at="2020-11-10T00:47:25 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- notePrice -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:display.DisplayDropdown@305fd85d]" name="tearDown" is-config="true" duration-ms="1334" started-at="2020-11-10T00:47:25 IST" finished-at="2020-11-10T00:47:27 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- DisplayFilter -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- display.DisplayDropdown -->
+    </test> <!-- validateDisplayDropdown -->
+  </suite> <!-- DemoWebShop -->
 </testng-results>

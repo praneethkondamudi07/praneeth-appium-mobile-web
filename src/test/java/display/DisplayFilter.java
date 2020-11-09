@@ -1,3 +1,4 @@
+package display;
 import org.testng.annotations.Test;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
@@ -16,7 +17,7 @@ public class DisplayFilter {
 	public AndroidDriver<AndroidElement> driver;
 
 	@Test
-	public void verifySort() throws InterruptedException {
+	public void verifyDisplayDropdown() throws InterruptedException {
 		driver.navigate().to("http://demowebshop.tricentis.com/login");
 		Thread.sleep(4000);
 		driver.findElement(By.xpath("//span[@class='icon']")).click();

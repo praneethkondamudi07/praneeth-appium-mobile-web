@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="DemoWebShop"  >
+    <test name="validateDisplayDropdown">
+        <classes>
+            <class name="display.DisplayDropdown">
+                <parameter name="invocationCount" value="3"/>
+            </class>
+        </classes>
+    </test>
+</suite>
